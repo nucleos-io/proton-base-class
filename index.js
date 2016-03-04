@@ -20,6 +20,8 @@ class BaseClass {
     return global[this.name]
   }
 
+  handleError(ctx) {}
+
 }
 
 module.exports = BaseClass
